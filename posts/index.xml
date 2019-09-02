@@ -6,10 +6,19 @@
     <description>Recent content in Posts on 天蓝如染</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Sep 2019 09:17:28 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 02 Sep 2019 14:51:28 +0800</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Again</title>
+      <link>http://localhost:1313/posts/again/</link>
+      <pubDate>Mon, 02 Sep 2019 14:51:28 +0800</pubDate>
+      
+      <guid>http://localhost:1313/posts/again/</guid>
+      <description>我又来啦</description>
+    </item>
     
     <item>
       <title>My First Post</title>
