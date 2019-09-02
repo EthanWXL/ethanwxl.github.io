@@ -6,7 +6,7 @@
     <description>Recent content on 天蓝如染</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Sep 2019 15:01:45 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 02 Sep 2019 09:17:28 +0800</lastBuildDate>
     
         <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
@@ -35,34 +35,6 @@
     </item>
     
     <item>
-      <title>Again</title>
-      <link>http://localhost:1313/post/again/</link>
-      <pubDate>Mon, 02 Sep 2019 15:01:45 +0800</pubDate>
-      
-      <guid>http://localhost:1313/post/again/</guid>
-      
-        <description>&lt;p&gt;哈哈哈哈哈哈&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/post/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
-      <pubDate>Mon, 02 Sep 2019 12:10:28 +0800</pubDate>
-      
-      <guid>http://localhost:1313/post/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
-      
-        <description>
-
-&lt;h2 id=&#34;我的博客开通啦&#34;&gt;我的博客开通啦！！！&lt;/h2&gt;
-
-&lt;h4 id=&#34;这是第二篇博客&#34;&gt;这是第二篇博客&lt;/h4&gt;
-</description>
-      
-    </item>
-    
-    <item>
       <title>My First Post</title>
       <link>http://localhost:1313/post/my-first-post/</link>
       <pubDate>Mon, 02 Sep 2019 09:17:28 +0800</pubDate>
@@ -72,6 +44,200 @@
         <description>
 
 &lt;h2 id=&#34;我的博客开通啦&#34;&gt;我的博客开通啦！！！&lt;/h2&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/post/%E5%A6%82%E4%BD%95%E7%94%A8-hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/%E5%A6%82%E4%BD%95%E7%94%A8-hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;如何用-hugo-搭建个人博客&#34;&gt;如何用 &lt;code&gt;hugo&lt;/code&gt;搭建个人博客&lt;/h1&gt;
+
+&lt;h3 id=&#34;写在前面&#34;&gt;&lt;strong&gt;写在前面&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;搭建这样一个博客你需要：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;拥有一个GitHub账户&lt;/li&gt;
+&lt;li&gt;安装git&lt;/li&gt;
+&lt;li&gt;可以访问&lt;a href=&#34;https://gohugo.io/getting-started/quick-start/获取更多细节。&#34;&gt;https://gohugo.io/getting-started/quick-start/获取更多细节。&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;1-下载并配置环境变量&#34;&gt;1. 下载并配置环境变量&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;访问&lt;a href=&#34;https://github.com/gohugoio/hugo/releases&#34;&gt;下载页面&lt;/a&gt;下载相应的&lt;code&gt;hugo_x.xx.x_Windows-xxbit.zip&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;解压文件，并把解压路径添加到环境变量中。&lt;/li&gt;
+&lt;li&gt;打开 &lt;code&gt;cmd&lt;/code&gt; 输入 &lt;code&gt;hugo version&lt;/code&gt;。出现 &lt;code&gt;Hugo Static Site Generator v0.57.2-A849CB2D windows/amd64 BuildDate: 2019-08-17T17:54:13Z&lt;/code&gt;  字样，则表示添加成功。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;2-创建新站点&#34;&gt;2. 创建新站点&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;打开&lt;code&gt;cmd&lt;/code&gt;, 输入以下命令：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo new site quickstart
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;该命令将在当前目录下创建一个 &lt;code&gt;quickstart&lt;/code&gt; 文件夹。&lt;/li&gt;
+&lt;li&gt;建议将文件夹名称改为更有一个更有意义的名称。&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;3-添加一个主题&#34;&gt;3. 添加一个主题&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;依次输入以下命令：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;cd quickstart
+git init
+git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
+echo theme = &amp;quot;ananke&amp;quot; &amp;gt;&amp;gt; config.toml
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;说明&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;以上命令将为你的博客添加一个名为&lt;code&gt;ananke&lt;/code&gt; 的主题。&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;可以打开&lt;code&gt;quickstart/config.toml&lt;/code&gt;进行查看/编辑：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;baseURL = &amp;quot;http://example.org/&amp;quot;
+#语言：如果使用中文可以将en-us改成zh-Hans
+#如果出现乱码，请将博客编码格式改为utf-8
+languageCode = &amp;quot;en-us&amp;quot;
+# 可以修改为自己喜欢的名字
+title = &amp;quot;My New Hugo Site&amp;quot;
+# 主题名称
+theme = &amp;quot;ananke&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;4-添加第一篇文章&#34;&gt;4. 添加第一篇文章&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;输入以下命令：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo new posts/my-first-post.md
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;说明&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;my-first-post.md&lt;/code&gt; 为文件名，可自行更改。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;markdown&lt;/code&gt;语法相关的知识可以自行Google。&lt;/li&gt;
+&lt;li&gt;可以手动在&lt;code&gt;content/post&lt;/code&gt;目录下添加文件&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;打开文件，可以看到顶部有如下头文件：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;title: &amp;quot;My First Post&amp;quot;
+date: 2019-09-02T09:17:28+08:00
+# 参数为true表示当前状态为草稿，不可以发布，false表示非草稿，可以发布
+# 发布时需要改为false
+draft: false
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;5-开启-hugo-服务&#34;&gt;5. 开启&lt;code&gt;hugo&lt;/code&gt;服务&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;输入以下命令：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo server -D
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;说明&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;hugo server -D&lt;/code&gt;可以预览草稿&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;hugo server&lt;/code&gt; 可以预览非草稿&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;**服务开启后就可以在 &lt;strong&gt;&lt;a href=&#34;http://localhost:1313/&#34;&gt;http://localhost:1313/&lt;/a&gt;&lt;/strong&gt;上看到刚刚编辑的文章，这样一篇文章就发布到本地啦。**&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;6-定制主题&#34;&gt;6. 定制主题&lt;/h3&gt;
+
+&lt;p&gt;如果有需要可以搜索使用更多主题或者访问&lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;hugo主题&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;7-构建静态页面&#34;&gt;7. 构建静态页面&lt;/h3&gt;
+
+&lt;p&gt;这一步很简单，只需要输入：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ol&gt;
+&lt;li&gt;说明
+
+&lt;ul&gt;
+&lt;li&gt;这将在当前目录下新建一个public目录&lt;/li&gt;
+&lt;li&gt;有了这个目录我们就可以将它部署到GitHub上了。&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;8-远程部署&#34;&gt;8. 远程部署&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;在&lt;code&gt;quickstart&lt;/code&gt;目录下新建.gitignore文件，输入/public/&lt;/li&gt;
+&lt;li&gt;进入public文件夹，右键 -&amp;gt; git bash here，将public文件夹作为一个本地仓库。&lt;/li&gt;
+&lt;li&gt;依次输入命令：&lt;code&gt;git add .&lt;/code&gt;         &lt;code&gt;git commit -m&amp;quot;第一次部署&amp;quot;&lt;/code&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;在我们自己的GitHub上新建一个仓库，仓库名的格式为：GitHub名（小写）.github.io，填完名字后不需要做任何操作直接新建。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;依次输入命令：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git remote add origin https://github.com/EthanWXL/ethanwxl.github.io.git
+
+git push -u origin master
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;进入刚才创建的仓库，点击settings 鼠标下滑找到下面的界面：点击链接即可访问博客。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&#34;C:UserssentryDesktop连接.png&#34; alt=&#34;连接&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;9-发布更多文章&#34;&gt;9. 发布更多文章&lt;/h3&gt;
+
+&lt;p&gt;想要发布更多的文章，只需要&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;参照第四步或者手动将编辑好的文件放入post文件夹&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;输入命令：&lt;code&gt;hugo&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;进入public文件夹 ：&lt;code&gt;cd public&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;依次添加，提交，推送更改&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git add .
+git commit -m&amp;quot;xxx&amp;quot;
+git push
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ol&gt;
 </description>
       
     </item>

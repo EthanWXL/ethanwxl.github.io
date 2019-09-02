@@ -6,28 +6,10 @@
     <description>Recent content in Posts on 天蓝如染</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Sep 2019 15:01:45 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 02 Sep 2019 09:17:28 +0800</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Again</title>
-      <link>http://localhost:1313/post/again/</link>
-      <pubDate>Mon, 02 Sep 2019 15:01:45 +0800</pubDate>
-      
-      <guid>http://localhost:1313/post/again/</guid>
-      <description>哈哈哈哈哈哈</description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/post/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
-      <pubDate>Mon, 02 Sep 2019 12:10:28 +0800</pubDate>
-      
-      <guid>http://localhost:1313/post/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
-      <description>我的博客开通啦！！！ 这是第二篇博客</description>
-    </item>
     
     <item>
       <title>My First Post</title>
@@ -36,6 +18,19 @@
       
       <guid>http://localhost:1313/post/my-first-post/</guid>
       <description>我的博客开通啦！！！</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/post/%E5%A6%82%E4%BD%95%E7%94%A8-hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/%E5%A6%82%E4%BD%95%E7%94%A8-hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <description>如何用 hugo搭建个人博客 写在前面 搭建这样一个博客你需要：
+ 拥有一个GitHub账户 安装git 可以访问https://gohugo.io/getting-started/quick-start/获取更多细节。  1. 下载并配置环境变量  访问下载页面下载相应的hugo_x.xx.x_Windows-xxbit.zip 解压文件，并把解压路径添加到环境变量中。 打开 cmd 输入 hugo version。出现 Hugo Static Site Generator v0.57.2-A849CB2D windows/amd64 BuildDate: 2019-08-17T17:54:13Z 字样，则表示添加成功。  2. 创建新站点  打开cmd, 输入以下命令：
+hugo new site quickstart   该命令将在当前目录下创建一个 quickstart 文件夹。 建议将文件夹名称改为更有一个更有意义的名称。   3. 添加一个主题  依次输入以下命令：
+cd quickstart git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke echo theme = &amp;quot;ananke&amp;quot; &amp;gt;&amp;gt; config.toml  说明
+ 以上命令将为你的博客添加一个名为ananke 的主题。 可以打开quickstart/config.</description>
     </item>
     
   </channel>
